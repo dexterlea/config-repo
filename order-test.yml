@@ -10,4 +10,4 @@ spring:
     username: root
     password: admin
     url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false
- env: test
+env: test
