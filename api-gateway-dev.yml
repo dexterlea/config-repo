@@ -10,10 +10,10 @@ zuul:
   # 简洁方法
 #    product: /myProduct/**
 #    排除某些路由
-  ignored-patterns:
+#  ignored-patterns:
 #    - /product/product/listForOrder
 #    - /myProduct/product/listForOrder
-     - /**/product/listForOrder
+#     - /**/product/listForOrder
 spring:
   redis:
     host: 10.78.115.171
